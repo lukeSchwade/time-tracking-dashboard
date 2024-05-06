@@ -43,7 +43,7 @@ h1 {
   font-weight: 300;
 }
 
-.previous-time, .previous-time > .value, .report {
+.previous-time > .previous-word, .previous-time > .value, .report {
   color: hsl(236, 100%, 87%);
   font-size: 14px;
 }
@@ -139,6 +139,24 @@ div [class*=-card] {
 
 .hover-glow:hover {
   filter: brightness(130%);
+}
+
+.hover-enlarge {
+  transition: transform 300ms ease-out;
+  transition: filter 200ms;
+}
+
+.hover-enlarge:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.hover-enlarge:active {
+  filter: brightness(150%);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .profile-card, .interval-card, .info-card {
