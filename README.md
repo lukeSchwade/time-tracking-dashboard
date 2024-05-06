@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop](./design/Desktop-final-screenshot.pngscreenshot.jpg)
+![desktop](./design/Desktop-final-screenshot.png)
 ![mobile](./design/Mobile-final-screenshot.png)
 
 
